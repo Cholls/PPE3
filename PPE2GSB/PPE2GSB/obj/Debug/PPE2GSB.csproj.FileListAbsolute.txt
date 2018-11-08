@@ -1,0 +1,6 @@
+C:\Users\bforgeron\source\repos\PPE2GSB\PPE2GSB\bin\Debug\PPE2GSB.dll
+C:\Users\bforgeron\source\repos\PPE2GSB\PPE2GSB\bin\Debug\PPE2GSB.pdb
+C:\Users\bforgeron\source\repos\PPE2GSB\PPE2GSB\obj\Debug\PPE2GSB.csprojResolveAssemblyReference.cache
+C:\Users\bforgeron\source\repos\PPE2GSB\PPE2GSB\obj\Debug\PPE2GSB.csproj.CoreCompileInputs.cache
+C:\Users\bforgeron\source\repos\PPE2GSB\PPE2GSB\obj\Debug\PPE2GSB.dll
+C:\Users\bforgeron\source\repos\PPE2GSB\PPE2GSB\obj\Debug\PPE2GSB.pdb

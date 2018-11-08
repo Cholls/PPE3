@@ -1,0 +1,11 @@
+C:\Users\bforgeron\source\repos\PPE2GSB\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\bforgeron\source\repos\PPE2GSB\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\bforgeron\source\repos\PPE2GSB\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\bforgeron\source\repos\PPE2GSB\WindowsFormsApp1\obj\Debug\PPE2GSBForm.csprojResolveAssemblyReference.cache
+C:\Users\bforgeron\source\repos\PPE2GSB\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\bforgeron\source\repos\PPE2GSB\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\bforgeron\source\repos\PPE2GSB\WindowsFormsApp1\obj\Debug\PPE2GSBForm.csproj.GenerateResource.cache
+C:\Users\bforgeron\source\repos\PPE2GSB\WindowsFormsApp1\obj\Debug\PPE2GSBForm.csproj.CoreCompileInputs.cache
+C:\Users\bforgeron\source\repos\PPE2GSB\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\bforgeron\source\repos\PPE2GSB\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\bforgeron\source\repos\PPE2GSB\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
