@@ -25,7 +25,6 @@ namespace PPE3_GSB_WF
 
         private void visiteursToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
             Form_Visiteurs fv = new Form_Visiteurs();
             fv.MdiParent = this;
             fv.Show();
