@@ -22,5 +22,34 @@ namespace PPE3_GSB_WF
             Form_Connexion seConnecte = new Form_Connexion();
             seConnecte.ShowDialog();
         }
+
+        private void visiteursToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
+            Form_Visiteurs fv = new Form_Visiteurs();
+            fv.MdiParent = this;
+            fv.Show();
+        }
+
+        private void rapportsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form_Rapports fr = new Form_Rapports();
+            fr.MdiParent = this;
+            fr.Show();
+        }
+
+        private void medicamentsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form_Medicaments fm = new Form_Medicaments();
+            fm.MdiParent = this;
+            fm.Show();
+        }
+
+        private void medecinsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form_Medecins fd = new Form_Medecins();
+            fd.MdiParent = this;
+            fd.Show();
+        }
     }
 }
