@@ -28,26 +28,26 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.mnu_Accueil = new System.Windows.Forms.MenuStrip();
             this.mnu_Visiteurs = new System.Windows.Forms.ToolStripMenuItem();
             this.mnu_Rapports = new System.Windows.Forms.ToolStripMenuItem();
             this.mnu_Medicaments = new System.Windows.Forms.ToolStripMenuItem();
             this.mnu_Medecins = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuStrip1.SuspendLayout();
+            this.mnu_Accueil.SuspendLayout();
             this.SuspendLayout();
             // 
-            // menuStrip1
+            // mnu_Accueil
             // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mnu_Accueil.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.mnu_Visiteurs,
             this.mnu_Rapports,
             this.mnu_Medicaments,
             this.mnu_Medecins});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(784, 24);
-            this.menuStrip1.TabIndex = 1;
-            this.menuStrip1.Text = "menuStrip1";
+            this.mnu_Accueil.Location = new System.Drawing.Point(0, 0);
+            this.mnu_Accueil.Name = "mnu_Accueil";
+            this.mnu_Accueil.Size = new System.Drawing.Size(784, 24);
+            this.mnu_Accueil.TabIndex = 1;
+            this.mnu_Accueil.Text = "menuStrip1";
             // 
             // mnu_Visiteurs
             // 
@@ -84,7 +84,7 @@
             this.BackgroundImage = global::PPE3_GSB_WF.Properties.Resources.logogsb;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(784, 461);
-            this.Controls.Add(this.menuStrip1);
+            this.Controls.Add(this.mnu_Accueil);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.IsMdiContainer = true;
@@ -92,8 +92,8 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Accueil";
             this.Load += new System.EventHandler(this.Form_Accueil_Load);
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
+            this.mnu_Accueil.ResumeLayout(false);
+            this.mnu_Accueil.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -101,7 +101,7 @@
 
         #endregion
 
-        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.MenuStrip mnu_Accueil;
         private System.Windows.Forms.ToolStripMenuItem mnu_Visiteurs;
         private System.Windows.Forms.ToolStripMenuItem mnu_Rapports;
         private System.Windows.Forms.ToolStripMenuItem mnu_Medicaments;
