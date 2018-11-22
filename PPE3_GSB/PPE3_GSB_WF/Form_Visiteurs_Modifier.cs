@@ -16,5 +16,10 @@ namespace PPE3_GSB_WF
         {
             InitializeComponent();
         }
+
+        private void btn_Annuler_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

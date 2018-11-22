@@ -64,7 +64,7 @@
             // btn_Ajouter
             // 
             this.btn_Ajouter.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Ajouter.Location = new System.Drawing.Point(155, 390);
+            this.btn_Ajouter.Location = new System.Drawing.Point(155, 393);
             this.btn_Ajouter.Name = "btn_Ajouter";
             this.btn_Ajouter.Size = new System.Drawing.Size(75, 23);
             this.btn_Ajouter.TabIndex = 2;
@@ -81,6 +81,7 @@
             this.btn_Modifier.TabIndex = 3;
             this.btn_Modifier.Text = "Modifier";
             this.btn_Modifier.UseVisualStyleBackColor = true;
+            this.btn_Modifier.Click += new System.EventHandler(this.btn_Modifier_Click);
             // 
             // btn_Supprimer
             // 
@@ -105,7 +106,7 @@
             // 
             this.lbl_lstVisiteurs.AutoSize = true;
             this.lbl_lstVisiteurs.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_lstVisiteurs.Location = new System.Drawing.Point(95, 19);
+            this.lbl_lstVisiteurs.Location = new System.Drawing.Point(95, 17);
             this.lbl_lstVisiteurs.Name = "lbl_lstVisiteurs";
             this.lbl_lstVisiteurs.Size = new System.Drawing.Size(204, 25);
             this.lbl_lstVisiteurs.TabIndex = 6;

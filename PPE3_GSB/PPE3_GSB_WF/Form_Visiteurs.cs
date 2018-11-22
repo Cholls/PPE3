@@ -29,12 +29,19 @@ namespace PPE3_GSB_WF
 
         private void btn_Ajouter_Click(object sender, EventArgs e)
         {
-
+            Form_Visiteurs_Ajouter fva = new Form_Visiteurs_Ajouter();
+            fva.Show();
         }
 
         private void btn_Supprimer_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btn_Modifier_Click(object sender, EventArgs e)
+        {
+            Form_Visiteurs_Modifier fvm = new Form_Visiteurs_Modifier();
+            fvm.Show();
         }
     }
 }

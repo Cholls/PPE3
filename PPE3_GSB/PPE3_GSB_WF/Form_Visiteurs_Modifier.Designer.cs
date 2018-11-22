@@ -28,111 +28,229 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.lbl_Matricule = new System.Windows.Forms.Label();
-            this.lbl_Nom = new System.Windows.Forms.Label();
-            this.lbl_Prenom = new System.Windows.Forms.Label();
-            this.lbl_Adresse = new System.Windows.Forms.Label();
-            this.lbl_CP = new System.Windows.Forms.Label();
-            this.lbl_Ville = new System.Windows.Forms.Label();
-            this.lbl_DateEmbauche = new System.Windows.Forms.Label();
-            this.lbl_Login = new System.Windows.Forms.Label();
+            this.lbl_ModifierVisiteur = new System.Windows.Forms.Label();
+            this.btn_Valider = new System.Windows.Forms.Button();
+            this.tb_Nom = new System.Windows.Forms.TextBox();
+            this.tb_Prenom = new System.Windows.Forms.TextBox();
+            this.tb_Adresse = new System.Windows.Forms.TextBox();
+            this.tb_CP = new System.Windows.Forms.TextBox();
+            this.tb_Ville = new System.Windows.Forms.TextBox();
+            this.tb_Login = new System.Windows.Forms.TextBox();
+            this.tb_MotDePasse = new System.Windows.Forms.TextBox();
+            this.tb_Matricule = new System.Windows.Forms.TextBox();
             this.lbl_MotDePasse = new System.Windows.Forms.Label();
+            this.lbl_Login = new System.Windows.Forms.Label();
+            this.lbl_DateEmbauche = new System.Windows.Forms.Label();
+            this.lbl_Ville = new System.Windows.Forms.Label();
+            this.lbl_CP = new System.Windows.Forms.Label();
+            this.lbl_Adresse = new System.Windows.Forms.Label();
+            this.lbl_Prenom = new System.Windows.Forms.Label();
+            this.lbl_Nom = new System.Windows.Forms.Label();
+            this.lbl_Matricule = new System.Windows.Forms.Label();
+            this.tb_DateEmbauche = new System.Windows.Forms.TextBox();
+            this.btn_Annuler = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // textBox1
+            // lbl_ModifierVisiteur
             // 
-            this.textBox1.Location = new System.Drawing.Point(358, 239);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 0;
+            this.lbl_ModifierVisiteur.AutoSize = true;
+            this.lbl_ModifierVisiteur.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_ModifierVisiteur.Location = new System.Drawing.Point(99, 16);
+            this.lbl_ModifierVisiteur.Name = "lbl_ModifierVisiteur";
+            this.lbl_ModifierVisiteur.Size = new System.Drawing.Size(207, 25);
+            this.lbl_ModifierVisiteur.TabIndex = 57;
+            this.lbl_ModifierVisiteur.Text = "Modifier le visiteur";
             // 
-            // lbl_Matricule
+            // btn_Valider
             // 
-            this.lbl_Matricule.AutoSize = true;
-            this.lbl_Matricule.Location = new System.Drawing.Point(96, 66);
-            this.lbl_Matricule.Name = "lbl_Matricule";
-            this.lbl_Matricule.Size = new System.Drawing.Size(50, 13);
-            this.lbl_Matricule.TabIndex = 1;
-            this.lbl_Matricule.Text = "Matricule";
+            this.btn_Valider.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Valider.Location = new System.Drawing.Point(219, 350);
+            this.btn_Valider.Name = "btn_Valider";
+            this.btn_Valider.Size = new System.Drawing.Size(96, 38);
+            this.btn_Valider.TabIndex = 56;
+            this.btn_Valider.Text = "Valider";
+            this.btn_Valider.UseVisualStyleBackColor = true;
             // 
-            // lbl_Nom
+            // tb_Nom
             // 
-            this.lbl_Nom.AutoSize = true;
-            this.lbl_Nom.Location = new System.Drawing.Point(96, 79);
-            this.lbl_Nom.Name = "lbl_Nom";
-            this.lbl_Nom.Size = new System.Drawing.Size(29, 13);
-            this.lbl_Nom.TabIndex = 2;
-            this.lbl_Nom.Text = "Nom";
+            this.tb_Nom.Location = new System.Drawing.Point(195, 102);
+            this.tb_Nom.Name = "tb_Nom";
+            this.tb_Nom.Size = new System.Drawing.Size(150, 20);
+            this.tb_Nom.TabIndex = 55;
             // 
-            // lbl_Prenom
+            // tb_Prenom
             // 
-            this.lbl_Prenom.AutoSize = true;
-            this.lbl_Prenom.Location = new System.Drawing.Point(96, 92);
-            this.lbl_Prenom.Name = "lbl_Prenom";
-            this.lbl_Prenom.Size = new System.Drawing.Size(43, 13);
-            this.lbl_Prenom.TabIndex = 3;
-            this.lbl_Prenom.Text = "Prénom";
+            this.tb_Prenom.Location = new System.Drawing.Point(195, 132);
+            this.tb_Prenom.Name = "tb_Prenom";
+            this.tb_Prenom.Size = new System.Drawing.Size(150, 20);
+            this.tb_Prenom.TabIndex = 54;
             // 
-            // lbl_Adresse
+            // tb_Adresse
             // 
-            this.lbl_Adresse.AutoSize = true;
-            this.lbl_Adresse.Location = new System.Drawing.Point(96, 105);
-            this.lbl_Adresse.Name = "lbl_Adresse";
-            this.lbl_Adresse.Size = new System.Drawing.Size(45, 13);
-            this.lbl_Adresse.TabIndex = 4;
-            this.lbl_Adresse.Text = "Adresse";
+            this.tb_Adresse.Location = new System.Drawing.Point(195, 162);
+            this.tb_Adresse.Name = "tb_Adresse";
+            this.tb_Adresse.Size = new System.Drawing.Size(150, 20);
+            this.tb_Adresse.TabIndex = 53;
             // 
-            // lbl_CP
+            // tb_CP
             // 
-            this.lbl_CP.AutoSize = true;
-            this.lbl_CP.Location = new System.Drawing.Point(96, 118);
-            this.lbl_CP.Name = "lbl_CP";
-            this.lbl_CP.Size = new System.Drawing.Size(21, 13);
-            this.lbl_CP.TabIndex = 5;
-            this.lbl_CP.Text = "CP";
+            this.tb_CP.Location = new System.Drawing.Point(195, 192);
+            this.tb_CP.Name = "tb_CP";
+            this.tb_CP.Size = new System.Drawing.Size(150, 20);
+            this.tb_CP.TabIndex = 52;
             // 
-            // lbl_Ville
+            // tb_Ville
             // 
-            this.lbl_Ville.AutoSize = true;
-            this.lbl_Ville.Location = new System.Drawing.Point(96, 131);
-            this.lbl_Ville.Name = "lbl_Ville";
-            this.lbl_Ville.Size = new System.Drawing.Size(26, 13);
-            this.lbl_Ville.TabIndex = 6;
-            this.lbl_Ville.Text = "Ville";
+            this.tb_Ville.Location = new System.Drawing.Point(195, 222);
+            this.tb_Ville.Name = "tb_Ville";
+            this.tb_Ville.Size = new System.Drawing.Size(150, 20);
+            this.tb_Ville.TabIndex = 51;
             // 
-            // lbl_DateEmbauche
+            // tb_Login
             // 
-            this.lbl_DateEmbauche.AutoSize = true;
-            this.lbl_DateEmbauche.Location = new System.Drawing.Point(99, 148);
-            this.lbl_DateEmbauche.Name = "lbl_DateEmbauche";
-            this.lbl_DateEmbauche.Size = new System.Drawing.Size(91, 13);
-            this.lbl_DateEmbauche.TabIndex = 7;
-            this.lbl_DateEmbauche.Text = "Date d\'embauche";
+            this.tb_Login.Location = new System.Drawing.Point(195, 282);
+            this.tb_Login.Name = "tb_Login";
+            this.tb_Login.Size = new System.Drawing.Size(150, 20);
+            this.tb_Login.TabIndex = 50;
             // 
-            // lbl_Login
+            // tb_MotDePasse
             // 
-            this.lbl_Login.AutoSize = true;
-            this.lbl_Login.Location = new System.Drawing.Point(99, 165);
-            this.lbl_Login.Name = "lbl_Login";
-            this.lbl_Login.Size = new System.Drawing.Size(33, 13);
-            this.lbl_Login.TabIndex = 8;
-            this.lbl_Login.Text = "Login";
+            this.tb_MotDePasse.Location = new System.Drawing.Point(195, 312);
+            this.tb_MotDePasse.Name = "tb_MotDePasse";
+            this.tb_MotDePasse.Size = new System.Drawing.Size(150, 20);
+            this.tb_MotDePasse.TabIndex = 49;
+            // 
+            // tb_Matricule
+            // 
+            this.tb_Matricule.Location = new System.Drawing.Point(195, 72);
+            this.tb_Matricule.Name = "tb_Matricule";
+            this.tb_Matricule.Size = new System.Drawing.Size(150, 20);
+            this.tb_Matricule.TabIndex = 48;
             // 
             // lbl_MotDePasse
             // 
             this.lbl_MotDePasse.AutoSize = true;
-            this.lbl_MotDePasse.Location = new System.Drawing.Point(99, 182);
+            this.lbl_MotDePasse.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_MotDePasse.Location = new System.Drawing.Point(50, 310);
             this.lbl_MotDePasse.Name = "lbl_MotDePasse";
-            this.lbl_MotDePasse.Size = new System.Drawing.Size(71, 13);
-            this.lbl_MotDePasse.TabIndex = 9;
+            this.lbl_MotDePasse.Size = new System.Drawing.Size(105, 20);
+            this.lbl_MotDePasse.TabIndex = 47;
             this.lbl_MotDePasse.Text = "Mot de passe";
+            // 
+            // lbl_Login
+            // 
+            this.lbl_Login.AutoSize = true;
+            this.lbl_Login.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Login.Location = new System.Drawing.Point(50, 280);
+            this.lbl_Login.Name = "lbl_Login";
+            this.lbl_Login.Size = new System.Drawing.Size(48, 20);
+            this.lbl_Login.TabIndex = 46;
+            this.lbl_Login.Text = "Login";
+            // 
+            // lbl_DateEmbauche
+            // 
+            this.lbl_DateEmbauche.AutoSize = true;
+            this.lbl_DateEmbauche.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_DateEmbauche.Location = new System.Drawing.Point(50, 250);
+            this.lbl_DateEmbauche.Name = "lbl_DateEmbauche";
+            this.lbl_DateEmbauche.Size = new System.Drawing.Size(135, 20);
+            this.lbl_DateEmbauche.TabIndex = 45;
+            this.lbl_DateEmbauche.Text = "Date d\'embauche";
+            // 
+            // lbl_Ville
+            // 
+            this.lbl_Ville.AutoSize = true;
+            this.lbl_Ville.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Ville.Location = new System.Drawing.Point(50, 220);
+            this.lbl_Ville.Name = "lbl_Ville";
+            this.lbl_Ville.Size = new System.Drawing.Size(38, 20);
+            this.lbl_Ville.TabIndex = 44;
+            this.lbl_Ville.Text = "Ville";
+            // 
+            // lbl_CP
+            // 
+            this.lbl_CP.AutoSize = true;
+            this.lbl_CP.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_CP.Location = new System.Drawing.Point(50, 190);
+            this.lbl_CP.Name = "lbl_CP";
+            this.lbl_CP.Size = new System.Drawing.Size(30, 20);
+            this.lbl_CP.TabIndex = 43;
+            this.lbl_CP.Text = "CP";
+            // 
+            // lbl_Adresse
+            // 
+            this.lbl_Adresse.AutoSize = true;
+            this.lbl_Adresse.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Adresse.Location = new System.Drawing.Point(50, 160);
+            this.lbl_Adresse.Name = "lbl_Adresse";
+            this.lbl_Adresse.Size = new System.Drawing.Size(68, 20);
+            this.lbl_Adresse.TabIndex = 42;
+            this.lbl_Adresse.Text = "Adresse";
+            // 
+            // lbl_Prenom
+            // 
+            this.lbl_Prenom.AutoSize = true;
+            this.lbl_Prenom.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Prenom.Location = new System.Drawing.Point(50, 130);
+            this.lbl_Prenom.Name = "lbl_Prenom";
+            this.lbl_Prenom.Size = new System.Drawing.Size(64, 20);
+            this.lbl_Prenom.TabIndex = 41;
+            this.lbl_Prenom.Text = "Prénom";
+            // 
+            // lbl_Nom
+            // 
+            this.lbl_Nom.AutoSize = true;
+            this.lbl_Nom.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Nom.Location = new System.Drawing.Point(50, 100);
+            this.lbl_Nom.Name = "lbl_Nom";
+            this.lbl_Nom.Size = new System.Drawing.Size(42, 20);
+            this.lbl_Nom.TabIndex = 40;
+            this.lbl_Nom.Text = "Nom";
+            // 
+            // lbl_Matricule
+            // 
+            this.lbl_Matricule.AutoSize = true;
+            this.lbl_Matricule.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Matricule.Location = new System.Drawing.Point(50, 70);
+            this.lbl_Matricule.Name = "lbl_Matricule";
+            this.lbl_Matricule.Size = new System.Drawing.Size(73, 20);
+            this.lbl_Matricule.TabIndex = 39;
+            this.lbl_Matricule.Text = "Matricule";
+            // 
+            // tb_DateEmbauche
+            // 
+            this.tb_DateEmbauche.Location = new System.Drawing.Point(195, 252);
+            this.tb_DateEmbauche.Name = "tb_DateEmbauche";
+            this.tb_DateEmbauche.Size = new System.Drawing.Size(150, 20);
+            this.tb_DateEmbauche.TabIndex = 38;
+            // 
+            // btn_Annuler
+            // 
+            this.btn_Annuler.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Annuler.Location = new System.Drawing.Point(59, 350);
+            this.btn_Annuler.Name = "btn_Annuler";
+            this.btn_Annuler.Size = new System.Drawing.Size(96, 38);
+            this.btn_Annuler.TabIndex = 58;
+            this.btn_Annuler.Text = "Annuler";
+            this.btn_Annuler.UseVisualStyleBackColor = true;
+            this.btn_Annuler.Click += new System.EventHandler(this.btn_Annuler_Click);
             // 
             // Form_Visiteurs_Modifier
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(770, 425);
+            this.ClientSize = new System.Drawing.Size(400, 400);
+            this.Controls.Add(this.btn_Annuler);
+            this.Controls.Add(this.lbl_ModifierVisiteur);
+            this.Controls.Add(this.btn_Valider);
+            this.Controls.Add(this.tb_Nom);
+            this.Controls.Add(this.tb_Prenom);
+            this.Controls.Add(this.tb_Adresse);
+            this.Controls.Add(this.tb_CP);
+            this.Controls.Add(this.tb_Ville);
+            this.Controls.Add(this.tb_Login);
+            this.Controls.Add(this.tb_MotDePasse);
+            this.Controls.Add(this.tb_Matricule);
             this.Controls.Add(this.lbl_MotDePasse);
             this.Controls.Add(this.lbl_Login);
             this.Controls.Add(this.lbl_DateEmbauche);
@@ -142,7 +260,7 @@
             this.Controls.Add(this.lbl_Prenom);
             this.Controls.Add(this.lbl_Nom);
             this.Controls.Add(this.lbl_Matricule);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.tb_DateEmbauche);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form_Visiteurs_Modifier";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -154,15 +272,26 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label lbl_Matricule;
-        private System.Windows.Forms.Label lbl_Nom;
-        private System.Windows.Forms.Label lbl_Prenom;
-        private System.Windows.Forms.Label lbl_Adresse;
-        private System.Windows.Forms.Label lbl_CP;
-        private System.Windows.Forms.Label lbl_Ville;
-        private System.Windows.Forms.Label lbl_DateEmbauche;
-        private System.Windows.Forms.Label lbl_Login;
+        private System.Windows.Forms.Label lbl_ModifierVisiteur;
+        private System.Windows.Forms.Button btn_Valider;
+        private System.Windows.Forms.TextBox tb_Nom;
+        private System.Windows.Forms.TextBox tb_Prenom;
+        private System.Windows.Forms.TextBox tb_Adresse;
+        private System.Windows.Forms.TextBox tb_CP;
+        private System.Windows.Forms.TextBox tb_Ville;
+        private System.Windows.Forms.TextBox tb_Login;
+        private System.Windows.Forms.TextBox tb_MotDePasse;
+        private System.Windows.Forms.TextBox tb_Matricule;
         private System.Windows.Forms.Label lbl_MotDePasse;
+        private System.Windows.Forms.Label lbl_Login;
+        private System.Windows.Forms.Label lbl_DateEmbauche;
+        private System.Windows.Forms.Label lbl_Ville;
+        private System.Windows.Forms.Label lbl_CP;
+        private System.Windows.Forms.Label lbl_Adresse;
+        private System.Windows.Forms.Label lbl_Prenom;
+        private System.Windows.Forms.Label lbl_Nom;
+        private System.Windows.Forms.Label lbl_Matricule;
+        private System.Windows.Forms.TextBox tb_DateEmbauche;
+        private System.Windows.Forms.Button btn_Annuler;
     }
 }

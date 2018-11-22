@@ -16,5 +16,15 @@ namespace PPE3_GSB_WF
         {
             InitializeComponent();
         }
+
+        private void Form_Visiteurs_Ajouter_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_Annuler_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
