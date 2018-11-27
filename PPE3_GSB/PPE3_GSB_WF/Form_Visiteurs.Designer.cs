@@ -33,7 +33,7 @@
             this.btn_Ajouter = new System.Windows.Forms.Button();
             this.btn_Modifier = new System.Windows.Forms.Button();
             this.btn_Supprimer = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cb_Medecins = new System.Windows.Forms.ComboBox();
             this.lbl_lstVisiteurs = new System.Windows.Forms.Label();
             this.lbl_choixVisiteurs = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -94,13 +94,13 @@
             this.btn_Supprimer.UseVisualStyleBackColor = true;
             this.btn_Supprimer.Click += new System.EventHandler(this.btn_Supprimer_Click);
             // 
-            // comboBox1
+            // cb_Medecins
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(486, 164);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(190, 21);
-            this.comboBox1.TabIndex = 5;
+            this.cb_Medecins.FormattingEnabled = true;
+            this.cb_Medecins.Location = new System.Drawing.Point(486, 164);
+            this.cb_Medecins.Name = "cb_Medecins";
+            this.cb_Medecins.Size = new System.Drawing.Size(190, 21);
+            this.cb_Medecins.TabIndex = 5;
             // 
             // lbl_lstVisiteurs
             // 
@@ -138,7 +138,7 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.lbl_choixVisiteurs);
             this.Controls.Add(this.lbl_lstVisiteurs);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cb_Medecins);
             this.Controls.Add(this.btn_Supprimer);
             this.Controls.Add(this.btn_Modifier);
             this.Controls.Add(this.btn_Ajouter);
@@ -162,7 +162,7 @@
         private System.Windows.Forms.Button btn_Ajouter;
         private System.Windows.Forms.Button btn_Modifier;
         private System.Windows.Forms.Button btn_Supprimer;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cb_Medecins;
         private System.Windows.Forms.Label lbl_lstVisiteurs;
         private System.Windows.Forms.Label lbl_choixVisiteurs;
         private System.Windows.Forms.Panel panel1;
