@@ -40,6 +40,7 @@
             this.btn_Quitter.TabIndex = 2;
             this.btn_Quitter.Text = "Quitter";
             this.btn_Quitter.UseVisualStyleBackColor = true;
+            this.btn_Quitter.Click += new System.EventHandler(this.btn_Quitter_Click);
             // 
             // Form_Medicaments
             // 
